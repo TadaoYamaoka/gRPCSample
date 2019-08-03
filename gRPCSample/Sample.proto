@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+package sample;
+
+service UserService {
+  rpc SetUser (User) returns (UserResponse);
+}
+
+message User {
+  int32 id = 1;
+  string name = 2;
+}
+
+message UserResponse {
+  bool result = 1;
+}

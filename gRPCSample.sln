@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCSample", "gRPCSample\gRPCSample.csproj", "{24CC11BF-C46D-4451-9E7B-AF2C3FBA571F}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyServerSample", "PyServerSample\PyServerSample.pyproj", "{44C5DF06-EB0E-4AC7-B1C3-BD8B6F0BB7E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{24CC11BF-C46D-4451-9E7B-AF2C3FBA571F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24CC11BF-C46D-4451-9E7B-AF2C3FBA571F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24CC11BF-C46D-4451-9E7B-AF2C3FBA571F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C5DF06-EB0E-4AC7-B1C3-BD8B6F0BB7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C5DF06-EB0E-4AC7-B1C3-BD8B6F0BB7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
